@@ -1,0 +1,46 @@
+body{
+    background-color: #7ee4a996;
+    font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+}
+h1{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    padding: 30px;
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+}
+p{
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+}
+
+figcaption{
+    font-size: 11px;
+}
+
+table{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+ @media (max-width: 600px) {
+            .image-container {
+                flex-direction: column;
+            }
+            .image-container img {
+                max-width: 500px;
+                height: auto;
+            }
+        }
